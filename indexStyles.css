@@ -44,6 +44,10 @@ body {
 	overflow: visible;
 }
 
+.paragraphs > p > a {
+	color: green;
+}
+
 .face {
 	position: relative;
 	top: 0;
