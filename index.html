@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset='UTF-8'>
+		<title>About</title>
+		<link rel="stylesheet" href="css/navbar.css">
+		<link rel="stylesheet" href="indexStyles.css">
+	</head>
+	
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="index.html">About</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="curiosities.html">Curiosities</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="faq.html">FAQ</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="paragraphs">
+			<div class="face">
+				<div class="normalFace">
+					<img src="images/index/normalFace.gif" alt="" onclick="faceClickRoutine()">
+				</div>
+				<div class="explodedFace">
+					<img src="images/index/explodedFace.gif" id="explodedFace" alt="">
+				</div>
+				<div class="boomEffect">
+					<img src="images/index/boom.gif" id="boomEffect" alt="">
+				</div>
+			</div>
+			<div class="firstParagraph">
+				<p>
+					Howdy! My name's Griffin Bates, and this is my website. I'm a computer science and 
+					mathematics student by day and a person with far too much free time by night. This is 
+					where I post some of my projects/thoughts/other random things I find neat when I feel 
+					motivated. My interests include computers (as long as it's not UI programming, 
+					anything but that), math, cooking, video games, writing, music, and nature/mycology. Chances 
+					are if it's nerdy and cool I'm into it. If any of that sounds up your alley you're 
+					welcome to stick around. You can also shoot me an email if you're in the mood. I always
+					love to meet new friends! Otherwise, I hope you enjoyed your stay.
+				</p>
+			</div>
+			<p>
+				Oh, and here's this website's source code if you're into that kind of thing. 
+			</p>
+		</div>
+
+		<div class="socials">
+				<ul>
+					<li><a href="https://github.com/Chemist02"><img src="images/index/github.gif"></a></li>
+					<li><a href="mailto:griffin0042@gmail.com"><img src="images/index/email.gif"></a></li>
+					<li><a href="https://chemist02.itch.io/"><img src="images/index/itchio.gif"></a></li>
+					<li><a href="https://www.youtube.com/channel/UCsPxdPoR8tinRJsgvEhfXcA"><img src="images/index/youtube.gif"></a></li>
+					<li><a href="https://www.linkedin.com/in/griffin-bates-45947a22a/"><img src="images/index/linkedin.gif"></a></li>
+					<li><a href="index.html"><img src="images/index/cv.gif"></a></li>
+				</ul>
+		</div>
+	</body>
+
+	<script>	
+		function faceClickRoutine() {
+			var wasClicked = false;
+			if (!wasClicked) {
+				wasClicked = true;
+				var boomGif = document.getElementById('boomEffect');
+				document.getElementById('explodedFace').style.display = 'inline-block';
+				boomGif.style.display = 'inline-block';
+				setTimeout(function() { boomGif.style.display = 'none' }, 300);
+			}
+		}
+	</script>
+</html>

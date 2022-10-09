@@ -1,0 +1,23 @@
+.image {
+	width: 75rem;
+	background-color: yellow;
+	border: 6px solid;
+	border-color: magenta;
+	margin: auto;
+	margin-top: 2rem;
+	margin-bottom: 0rem; 
+	padding-bottom: 0rem; 
+	align-items: center;
+	font-size: 1.2rem;
+	color: magenta;
+	text-align: center;
+}
+
+.image > img {
+	width: 60rem;
+	display: center;
+	border: 6px solid;
+	border-color: magenta;
+	margin-bottom: 5rem;
+	margin-top: 5rem;
+}

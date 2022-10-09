@@ -1,0 +1,107 @@
+@font-face { 
+	font-family: fixedsys;
+	src: url('../AcPlus_IBM_BIOS.ttf');
+}
+
+body {
+	background-image: url('../images/backgroundTile.png');
+	padding: 0rem;
+	margin-top:2rem;
+	font-family: fixedsys;
+}
+
+.intro {
+	width: 75rem;
+	background-color: yellow;
+	border: 6px solid;
+	border-color: magenta;
+	margin: auto;
+	margin-top: 2rem;
+	margin-bottom: 0rem; 
+	padding-bottom: 0rem; 
+	align-items: center;
+	font-size: 1.2rem;
+	color: magenta;
+}
+
+.intro > p {
+	text-indent: 3rem;
+	text-align: justify;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	overflow: visible;
+}
+
+.intro > ul > li {
+	margin-bottom: 0.5rem;
+}
+
+.intro > ul > li > a {
+	color: Green;
+}
+
+.ingredients {
+	width: 75rem;
+	background-color: yellow;
+	border: 6px solid;
+	border-color: magenta;
+	margin: auto;
+	margin-top: 2rem;
+	margin-bottom: 0rem; 
+	padding-bottom: 0rem; 
+	align-items: center;
+	font-size: 1.2rem;
+	color: green;
+}
+
+.ingredients > p {
+	text-indent: 3rem;
+	text-align: justify;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	overflow: visible;
+}
+
+.ingredients > ul > li {
+	margin-bottom: 0.5rem;
+}
+
+.ingredients > ul > li > u {
+	color: Blue;
+}
+
+.instructions {
+	width: 75rem;
+	background-color: yellow;
+	border: 6px solid;
+	border-color: magenta;
+	margin: auto;
+	margin-top: 2rem;
+	margin-bottom: 0rem; 
+	padding-bottom: 0rem; 
+	align-items: center;
+	font-size: 1.2rem;
+	color: green;
+}
+
+.instructions > p {
+	text-indent: 3rem;
+	text-align: justify;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	overflow: visible;
+}
+
+.instructions > ul > li {
+	margin-bottom: 0.5rem;
+}
+
+.instructions > ul > li > u {
+	color: Blue;
+}

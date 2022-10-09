@@ -1,0 +1,41 @@
+@font-face { 
+	font-family: IBM;
+	src: url('AcPlus_IBM_BIOS.ttf');
+}
+
+body {
+	background-image: url('images/backgroundTile.png');
+	padding: 0rem;
+	margin-top:2rem;
+	font-family: IBM;
+}
+
+header {
+	width: 75rem;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0rem;
+	background-color: yellow;
+	border: 6px solid;
+	border-color: magenta;
+}
+
+nav > ul {
+	display: flex;
+	flex-direction: row;
+	margin-left: 0rem;
+	padding-left: 0rem;
+}
+
+nav > ul > li {
+	list-style-type: none;
+	margin-left: 3rem;
+}
+
+nav > ul > li > a {
+	text-decoration: none;
+	color: magenta;
+	font-size: 1.2rem;
+}
